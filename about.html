@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/d61bc204a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="px-4 py-5 my-5 text-center">
+      <img class="w-100 border-radius-md" src="/image/vivek.jpeg" alt="image">
+      <h1 class="display-5 fw-bold my-5"> VIVEK PANDEY, SOFTWARE ENGINEER, <br> JAVA STACK DEVELOPER</h1>
+      <a href="https://www.facebook.com/anshpandeyvivek.don"> <i class="fa-brands fa-facebook fa-2xl"></i></a>
+      <a href="https://instagram.com/vivekpandeyansh?igshid=YmMyMTA2M2Y="> <i class="fa-brands fa-instagram fa-2xl"></i></a>
+      <div class="card-body">
+        <div class="rounded border px-3 py-2 mb-3 bg-pink">
+          <div class="d-flex align-items-center justify-content-between">
+            <h6>Overview</h6>
+            <div class="dropdown ms-auto">
+              <!-- Card share action menu -->
+              <a class="nav-link text-secondary mb-0" href="#" id="aboutAction" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-three-dots"></i>
+              </a>
+              <!-- Card share action dropdown menu -->
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutAction">
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Edit</a></li>
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-trash fa-fw pe-2"></i>Delete</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-sm-6">
+            <!-- Birthday START -->
+            <div class="d-flex align-items-center rounded border px-3 py-2">
+              <!-- Date -->
+              <p class="mb-0">
+                <i class="bi bi-calendar-date fa-fw me-2"></i> Born: <strong> December 9, 1997 </strong>
+              </p>
+              <div class="dropdown ms-auto">
+                <!-- Card share action menu -->
+                <a class="nav-link text-secondary mb-0" href="#" id="aboutAction2" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <i class="bi bi-three-dots"></i>
+                </a>
+                <!-- Card share action dropdown menu -->
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutAction2">
+                  <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Edit</a></li>
+                  <li><a class="dropdown-item" href="#"> <i class="bi bi-trash fa-fw pe-2"></i>Delete</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Birthday END -->
+          </div>
+          <div class="col-sm-6">
+            <!-- Status START -->
+            <div class="d-flex align-items-center rounded border px-3 py-2">
+              <!-- Date -->
+              <p class="mb-0">
+                <i class="bi bi-heart fa-fw me-2"></i> Status: <strong> Single </strong>
+              </p>
+              <div class="dropdown ms-auto">
+                <!-- Card share action menu -->
+                <a class="nav-link text-secondary mb-0" href="#" id="aboutAction3" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <i class="bi bi-three-dots"></i>
+                </a>
+                <!-- Card share action dropdown menu -->
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutAction3">
+                  <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Edit</a></li>
+                  <li><a class="dropdown-item" href="#"> <i class="bi bi-trash fa-fw pe-2"></i>Delete</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Status END -->
+          </div>
+          <div class="col-sm-6">
+            <!-- Designation START -->
+            <div class="d-flex align-items-center rounded border px-3 py-2">
+              <!-- Date -->
+              <p class="mb-0">
+                <i class="bi bi-briefcase fa-fw me-2"></i> <strong> Software Engineer and Java Developer </strong>
+              </p>
+              <div class="dropdown ms-auto">
+                <!-- Card share action menu -->
+                <a class="nav-link text-secondary mb-0" href="#" id="aboutAction4" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <i class="bi bi-three-dots"></i>
+                </a>
+                <!-- Card share action dropdown menu -->
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutAction4">
+                  <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Edit</a></li>
+                  <li><a class="dropdown-item" href="#"> <i class="bi bi-trash fa-fw pe-2"></i>Delete</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Designation END -->
+          </div>
+          <div class="col-sm-6">
+            <!-- Lives START -->
+            <div class="d-flex align-items-center rounded border px-3 py-2">
+              <!-- Date -->
+              <p class="mb-0">
+                <i class="bi bi-geo-alt fa-fw me-2"></i> Lives in: <strong> Delhi </strong>
+              </p>
+              <div class="dropdown ms-auto">
+                <!-- Card share action menu -->
+                <a class="nav-link text-secondary mb-0" href="#" id="aboutAction5" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <i class="bi bi-three-dots"></i>
+                </a>
+                <!-- Card share action dropdown menu -->
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutAction5">
+                  <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Edit</a></li>
+                  <li><a class="dropdown-item" href="#"> <i class="bi bi-trash fa-fw pe-2"></i>Delete</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Lives END -->
+          </div>
+          <div class="col-sm-6">
+            <!-- Joined on START -->
+            <div class="d-flex align-items-center rounded border px-3 py-2">
+              <!-- Date -->
+              <p class="mb-0">
+                <i class="bi bi-geo-alt fa-fw me-2"></i> Joined on: <strong> Nov 26, 2019 </strong>
+              </p>
+              <div class="dropdown ms-auto">
+                <!-- Card share action menu -->
+                <a class="nav-link text-secondary mb-0" href="#" id="aboutAction6" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <i class="bi bi-three-dots"></i>
+                </a>
+                <!-- Card share action dropdown menu -->
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutAction6">
+                  <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Edit</a></li>
+                  <li><a class="dropdown-item" href="#"> <i class="bi bi-trash fa-fw pe-2"></i>Delete</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Joined on END -->
+          </div>
+          <div class="col-sm-6">
+            <!-- Joined on START -->
+            <div class="d-flex align-items-center rounded border px-3 py-2">
+              <!-- Date -->
+              <p class="mb-0">
+                <i class="bi bi-envelope fa-fw me-2"></i> Email: <strong> vp 1446392@gmail.com </strong>
+              </p>
+              <div class="dropdown ms-auto">
+                <!-- Card share action menu -->
+                <a class="nav-link text-secondary mb-0" href="#" id="aboutAction7" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <i class="bi bi-three-dots"></i>
+                </a>
+                <!-- Card share action dropdown menu -->
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutAction7">
+                  <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Edit</a></li>
+                  <li><a class="dropdown-item" href="#"> <i class="bi bi-trash fa-fw pe-2"></i>Delete</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Joined on END -->
+          </div>
+          <div class="col-sm-6 position-relative">
+            <!-- Workplace on START -->
+            <!-- Workplace on END -->
+          </div>
+          <div class="col-sm-6 position-relative">
+            <!-- Education on START -->
+
+            <!-- Education on END -->
+          </div>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-sm-6">
+          <!-- Birthday START -->
+          <div class="d-flex align-items-center rounded border px-3 py-2">
+            <!-- Date -->
+            <p class="mb-0">
+              <i class="bi bi-calendar-date fa-fw me-2"></i> Qualification: <strong> BCA, (2018) </strong>
+            </p>
+            <div class="dropdown ms-auto">
+              <!-- Card share action menu -->
+              <a class="nav-link text-secondary mb-0" href="#" id="aboutAction2" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-three-dots"></i>
+              </a>
+              <!-- Card share action dropdown menu -->
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutAction2">
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Edit</a></li>
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-trash fa-fw pe-2"></i>Delete</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Birthday END -->
+        </div>
+        <div class="col-sm-6">
+          <!-- Status START -->
+          <div class="d-flex align-items-center rounded border px-3 py-2">
+            <!-- Date -->
+            <p class="mb-0">
+              <i class="bi bi-heart fa-fw me-2"></i> Working : <strong> As a Website developer </strong>
+            </p>
+            <div class="dropdown ms-auto">
+              <!-- Card share action menu -->
+              <a class="nav-link text-secondary mb-0" href="#" id="aboutAction3" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-three-dots"></i>
+              </a>
+              <!-- Card share action dropdown menu -->
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutAction3">
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Edit</a></li>
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-trash fa-fw pe-2"></i>Delete</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Status END -->
+        </div>
+        <div class="col-sm-6">
+          <!-- Designation START -->
+          <div class="d-flex align-items-center rounded border px-3 py-2">
+            <!-- Date -->
+            <p class="mb-0">
+              <i class="bi bi-briefcase fa-fw me-2"></i> Interested Field : <strong> Software Engineering </strong>
+            </p>
+            <div class="dropdown ms-auto">
+              <!-- Card share action menu -->
+              <a class="nav-link text-secondary mb-0" href="#" id="aboutAction4" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-three-dots"></i>
+              </a>
+              <!-- Card share action dropdown menu -->
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutAction4">
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Edit</a></li>
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-trash fa-fw pe-2"></i>Delete</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Designation END -->
+        </div>
+        <div class="col-sm-6">
+          <!-- Lives START -->
+          <div class="d-flex align-items-center rounded border px-3 py-2">
+            <!-- Date -->
+            <p class="mb-0">
+              <i class="bi bi-geo-alt fa-fw me-2"></i> Belongs to : <strong> Uttar Pradesh </strong>
+            </p>
+            <div class="dropdown ms-auto">
+              <!-- Card share action menu -->
+              <a class="nav-link text-secondary mb-0" href="#" id="aboutAction5" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-three-dots"></i>
+              </a>
+              <!-- Card share action dropdown menu -->
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutAction5">
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Edit</a></li>
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-trash fa-fw pe-2"></i>Delete</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Lives END -->
+        </div>
+        <div class="col-sm-6">
+          <!-- Joined on START -->
+          <div class="d-flex align-items-center rounded border px-3 py-2">
+            <!-- Date -->
+            <p class="mb-0">
+              <i class="bi bi-geo-alt fa-fw me-2"></i> Working in Designer Field: <strong> Nov 26, 2020 </strong>
+            </p>
+            <div class="dropdown ms-auto">
+              <!-- Card share action menu -->
+              <a class="nav-link text-secondary mb-0" href="#" id="aboutAction6" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-three-dots"></i>
+              </a>
+              <!-- Card share action dropdown menu -->
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutAction6">
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Edit</a></li>
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-trash fa-fw pe-2"></i>Delete</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Joined on END -->
+        </div>
+        <div class="col-sm-6">
+          <!-- Joined on START -->
+          <div class="d-flex align-items-center rounded border px-3 py-2">
+            <!-- Date -->
+            <p class="mb-0">
+              <i class="bi bi-envelope fa-fw me-2"></i> Additional Email: <strong> vishwankpandey@gmail.com </strong>
+            </p>
+            <div class="dropdown ms-auto">
+              <!-- Card share action menu -->
+
+
+              <!-- Card share action dropdown menu -->
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutAction7">
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Edit</a></li>
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-trash fa-fw pe-2"></i>Delete</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container my-4">
+          <h1 class="display-5 fw-bold">Lovely Friends</h1>
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <div class="card card-profile overflow-hidden">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                    <a href="javascript:;">
+                      <div class="p-3 pe-md-0">
+                        <img class="w-100 border-radius-md" src="/image/vinay.jpeg" alt="image" height="300px" >
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+                    <div class="card-body">
+                      <h5 class="mb-0"> Vinay Kumar Dwivedi </h5>
+                      <h6 class="text-info">Sub Inspector</h6>
+                      <p class="mb-0"> Selected as Subinsprector in 2022 Batch. </p>
+                      <a href="https://www.facebook.com/vinay.dwivedi.73550"> <i class="fa-brands fa-facebook fa-xl"></i></a>
+                      <a href="https://instagram.com/v_i_n_a_y_d_w_i_v_e_d_i?igshid=YmMyMTA2M2Y="> <i class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="card card-profile mt-lg-0 mt-5 overflow-hidden">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                    <a href="javascript:;">
+                      <div class="p-3 pe-md-0">
+                        <img class="w-100 border-radius-md" src="/image/rakesh1.jpeg" alt="image" height="300px">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+                    <div class="card-body">
+                      <h5 class="mb-0">Rakesh Tiwari</h5>
+                      <h6 class="text-info">Software Engineer</h6>
+                      <p> Working in Infosysis as a software engineer since 2018.</p>
+                    
+                      <a href="https://www.facebook.com/profile.php?id=100005703511985"> <i class="fa-brands fa-facebook fa-xl"></i></a>
+                      <a href=""> <i class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-lg-6 col-12">
+              <div class="card card-profile overflow-hidden z-index-2">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                    <a href="javascript:;">
+                      <div class="p-3 pe-md-0">
+                        <img class="w-100 border-radius-md" src="/image/aman.jpeg" alt="image"height="300px">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+                    <div class="card-body">
+                      <h5 class="mb-0">Aman Tiwari</h5>
+                      <h6 class="text-info">Digital Marketing</h6>
+                      <p>Senior SEO since 2018. (Manager) </p>
+                  
+                      <a href="https://www.facebook.com/profile.php?id=100004496627532"> <i class="fa-brands fa-facebook fa-xl"></i></a>
+                      <a href="instagram.com/hrithik__tiwari"> <i class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="card card-profile mt-lg-0 mt-5 overflow-hidden z-index-2">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                    <a href="javascript:;">
+                      <div class="p-3 pe-md-0">
+                        <img class="w-100 border-radius-md" src="/image/avnish.jpeg" alt="image"height="300px">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+                    <div class="card-body">
+                      <h5 class="mb-0">Awneeh Tiwari</h5>
+                      <h6 class="text-info">Senior Manager at IGI Airport Delhi</h6>
+                      <p> 10 year Experince</p>
+                  
+                      <a href="https://www.facebook.com/avneesh.tiwari.18041"> <i class="fa-brands fa-facebook fa-xl"></i></a>
+                      <a href="https://instagram.com/aaavneee?igshid=YmMyMTA2M2Y="> <i class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-lg-6 col-12">
+              <div class="card card-profile overflow-hidden z-index-2">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                    <a href="javascript:;">
+                      <div class="p-3 pe-md-0">
+                        <img class="w-100 border-radius-md" src="/image/akshay1.jpeg" alt="image"height="300px">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+                    <div class="card-body">
+                      <h5 class="mb-0">Akashay Tiwari </h5>
+                      <h6 class="text-info"> Senior Busniess Counceller </h6>
+                      <p>Senior Network Marketing </p>
+                    
+                      <a href=""> <i class="fa-brands fa-facebook fa-xl"></i></a>
+                      <a href="https://instagram.com/akshay_tripathi_04?igshid=YmMyMTA2M2Y="> <i class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="card card-profile mt-lg-0 mt-5 overflow-hidden z-index-2">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                    <a href="javascript:;">
+                      <div class="p-3 pe-md-0">
+                        <img class="w-100 border-radius-md" src="/image/ravi.jpeg" alt="image"height="300px">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+                    <div class="card-body">
+                      <h5 class="mb-0">RaviKant Tiwari </h5>
+                      <h6 class="text-info">Team Leader Paisa Bazzar</h6>
+                      <p> 12 years working Experince </p>
+                    
+                      <a href="https://www.facebook.com/i.tiwariravi"> <i class="fa-brands fa-facebook fa-xl"></i></a>
+                      <a href=""> <i class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-lg-6 col-12">
+              <div class="card card-profile overflow-hidden z-index-2">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                    <a href="javascript:;">
+                      <div class="p-3 pe-md-0">
+                        <img class="w-100 border-radius-md" src="/image/mukesh.jpeg" alt="image" height="300px">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+                    <div class="card-body">
+                      <h5 class="mb-0">Mukesh Sharma</h5>
+                      <h6 class="text-info">Engineer Hoona Company</h6>
+                      <p>Senior Since 2017.</p>
+                   
+                      <a href="https://www.facebook.com/Mukesh.Sharma.73550"> <i class="fa-brands fa-facebook fa-xl"></i></a>
+                      <a href="https://www.facebook.com/mueksh.sharma.73550"> <i class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="card card-profile mt-lg-0 mt-5 overflow-hidden z-index-2">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                    <a href="javascript:;">
+                      <div class="p-3 pe-md-0">
+                        <img class="w-100 border-radius-md" src="/image/suraj.jpeg" alt="image" height="300px">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+                    <div class="card-body">
+                      <h5 class="mb-0">Suraj Dubey</h5>
+                      <h6 class="text-info">Lambardaar</h6>
+                      <p> 10 years Experince Agriculture (Pradhan) </p>
+                      <a href="https://www.facebook.com/suraj.dubey.50951101"> <i class="fa-brands fa-facebook fa-xl"></i></a>
+                      <a href="https://www.instagram.com/suraj.dubey.50951101"> <i class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+        <footer class="container">
+          <p class="float-end"><a href="#">Back to top</a></p>
+          <p>© 2022–2023 vishwak.pvt.ltd, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        </footer>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+          crossorigin="anonymous"></script>
+</body>
+
+</html>
